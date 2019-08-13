@@ -33,7 +33,7 @@ main ENDP
 
 changeVal PROC
 	push	ebp
-
+	mov		ebp, esp
 
 	ret		4
 changeVal ENDP
