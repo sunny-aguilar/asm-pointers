@@ -28,6 +28,7 @@ main ENDP
 
 
 changeVal PROC
+changeVal ENDP
 
 
 
