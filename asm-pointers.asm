@@ -43,7 +43,7 @@ changeVal PROC
 	call	WriteDec
 	call	CrLf
 
-
+	;change value pointed to by pointer
 	mov		eax, 20
 	mov		[edx], eax
 
