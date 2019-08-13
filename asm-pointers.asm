@@ -43,6 +43,7 @@ changeVal PROC
 	call	WriteDec
 	call	CrLf
 
+
 	mov		eax, 20
 	mov		[edx], eax
 
