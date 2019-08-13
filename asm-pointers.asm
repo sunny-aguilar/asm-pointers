@@ -38,7 +38,7 @@ changeVal PROC
 	push	ebp
 	mov		ebp, esp
 
-
+	;display value in pointer
 	mov		edx, [ebp + 8]
 	mov		eax, [edx]
 	call	WriteDec
