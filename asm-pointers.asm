@@ -19,7 +19,6 @@ myVal		DWORD	10
 
 main PROC
 	mov		eax, myVal
-	
 	call	WriteDec
 	call	CrLf
 
