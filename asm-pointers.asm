@@ -22,7 +22,7 @@ main PROC
 	call	WriteDec
 	call	CrLf
 
-
+	push	OFFSET myVal
 	call	changeVal
 	
 	
