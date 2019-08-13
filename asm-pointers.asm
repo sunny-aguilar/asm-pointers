@@ -12,14 +12,14 @@ INCLUDE Irvine32.inc
 
 
 .data
-myVal		DWORD	?
+myVal		DWORD	10
 
 
 .code
 
 main PROC
 	
-	
+	changeVal
 	
 	
 	exit					;exit to operating system
