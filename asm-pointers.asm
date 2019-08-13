@@ -14,7 +14,6 @@ INCLUDE Irvine32.inc
 .data
 myVal		DWORD	10
 
-
 .code
 
 main PROC
