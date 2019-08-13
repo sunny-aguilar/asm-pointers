@@ -19,7 +19,7 @@ myVal		DWORD	10
 
 main PROC
 	
-	changeVal
+	call	changeVal
 	
 	
 	exit					;exit to operating system
