@@ -36,6 +36,8 @@ changeVal PROC
 	mov		ebp, esp
 
 	mov		eax, [ebp + 8]
+	call	WriteDec
+	call	CrLf
 
 	ret		4
 changeVal ENDP
