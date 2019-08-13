@@ -38,6 +38,7 @@ changeVal PROC
 	push	ebp
 	mov		ebp, esp
 
+
 	mov		edx, [ebp + 8]
 	mov		eax, [edx]
 	call	WriteDec
