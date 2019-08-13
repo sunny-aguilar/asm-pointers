@@ -40,6 +40,8 @@ changeVal PROC
 	call	WriteDec
 	call	CrLf
 
+
+	pop		ebp
 	ret		4
 changeVal ENDP
 
