@@ -28,6 +28,9 @@ main ENDP
 
 
 changeVal PROC
+
+
+	ret
 changeVal ENDP
 
 
