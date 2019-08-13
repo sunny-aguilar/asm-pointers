@@ -35,6 +35,8 @@ changeVal PROC
 	push	ebp
 	mov		ebp, esp
 
+	mov		eax, [ebp + 8]
+
 	ret		4
 changeVal ENDP
 
