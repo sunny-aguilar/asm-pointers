@@ -32,9 +32,10 @@ main ENDP
 
 
 changeVal PROC
+	push	ebp
 
 
-	ret
+	ret		4
 changeVal ENDP
 
 
