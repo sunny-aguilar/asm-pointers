@@ -24,6 +24,10 @@ main PROC
 
 	push	OFFSET myVal
 	call	changeVal
+
+	mov		eax, myVal
+	call	WriteDec
+	call	CrLf
 	
 	
 	exit					;exit to operating system
@@ -39,6 +43,8 @@ changeVal PROC
 	mov		eax, [edx]
 	call	WriteDec
 	call	CrLf
+
+	mov		[edx], 20
 
 
 	pop		ebp
