@@ -36,6 +36,7 @@ changeVal PROC
 	mov		ebp, esp
 
 	mov		edx, [ebp + 8]
+	mov		eax, [edx]
 	call	WriteDec
 	call	CrLf
 
