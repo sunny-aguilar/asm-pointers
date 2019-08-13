@@ -18,7 +18,8 @@ myVal		DWORD	10
 .code
 
 main PROC
-	mov		eax, myVal	
+	mov		eax, myVal
+	call	WriteDec
 
 	call	changeVal
 	
