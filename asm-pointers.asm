@@ -21,6 +21,7 @@ main PROC
 	mov		eax, myVal
 	
 	call	WriteDec
+	call	CrLf
 
 	call	changeVal
 	
